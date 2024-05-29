@@ -97,8 +97,7 @@ def is_winner(playerList, winList):
         #... four checkers are in the playerList, win!
         if checkerMatch == 4:    
             return True
-            break
-        
+
     return False
 
 
